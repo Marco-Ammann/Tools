@@ -5,6 +5,28 @@ Diese Sammlung von PowerShell-Skripten bietet dir praktische Werkzeuge, um deine
 
 ---
 
+## Inhaltsverzeichnis
+- [Tools zur Projektverwaltung 🚀](#tools-zur-projektverwaltung-)
+  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+  - [Übersicht der Tools 🛠️](#übersicht-der-tools-️)
+  - [Nutzung der Tools](#nutzung-der-tools)
+    - [1. Backup-Skript](#1-backup-skript)
+      - [Nutzung:](#nutzung)
+      - [Funktionen:](#funktionen)
+    - [2. Projekt-Setup-Befehl: `new`](#2-projekt-setup-befehl-new)
+      - [Unterstützte Typen:](#unterstützte-typen)
+      - [Nutzung:](#nutzung-1)
+      - [Beispiele:](#beispiele)
+    - [3. GitHub-Push-Skript](#3-github-push-skript)
+      - [Nutzung:](#nutzung-2)
+    - [4. Node.js-Cache-Cleaner](#4-nodejs-cache-cleaner)
+      - [Nutzung:](#nutzung-3)
+    - [5. Python-Requirements-Checker](#5-python-requirements-checker)
+      - [Nutzung:](#nutzung-4)
+  - [PowerShell-Profil einrichten](#powershell-profil-einrichten)
+    - [Was ist das PowerShell-Profil?](#was-ist-das-powershell-profil)
+    - [Schritte zur Einrichtung:](#schritte-zur-einrichtung)
+
 ## Übersicht der Tools 🛠️
 
 | Tool                   | Beschreibung                                                      |
@@ -22,6 +44,7 @@ Diese Sammlung von PowerShell-Skripten bietet dir praktische Werkzeuge, um deine
 ### 1. Backup-Skript
 
 Erstellt ein Backup aller Projekte im `Projects`-Verzeichnis.
+Das Backupscript erstellt Logs und Verzeichnisse. (Siehe code um anpassungen vorzunehmen)
 
 #### Nutzung:
 ```powershell
