@@ -1,1 +1,0 @@
-# This will be a script to delete every item older than a certain age from the downloads folder
